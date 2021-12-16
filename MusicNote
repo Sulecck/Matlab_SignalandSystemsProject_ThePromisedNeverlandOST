@@ -1,0 +1,146 @@
+
+The Promised Neverland OST- Isabella's Lullaby
+author Sulecicek, Edanurakyel
+
+fs=8800;
+ts=1/fs;
+
+fa1= 440;
+fa2= 880;
+fb1= 494;
+fb2= 988;
+fc1= 523;
+fc2= 1047;
+fcdiez= 554;
+fd1= 587;
+fd2= 1175;
+fe1= 659;
+fe2= 1319;
+fe3= 2637;
+ff1= 698;
+ff2=1397;
+ff3=2794;
+fg1= 392;
+fg2= 784;
+fgdiez=415;
+
+t1=0:ts:4;
+t2=0:ts:2;
+t4=0:ts:1;
+t8=0:ts:0.5;
+t16=0:ts:0.25;
+
+
+note_A1_1= cos(2*pi*fa1*t16);
+note_A1_2= cos(2*pi*fa1*t8);
+note_A1_3= cos(2*pi*fa1*t4);
+note_A1_4= cos(2*pi*fa1*t2);
+note_A1_5= cos(2*pi*fa1*t1);
+
+note_A2_1=cos(2*pi*fa2*t16);
+note_A2_2=cos(2*pi*fa2*t8);
+note_A2_3=cos(2*pi*fa2*t4);
+note_A2_4=cos(2*pi*fa2*t2);
+note_A2_5=cos(2*pi*fa2*t1);
+
+note_B1_1=cos(2*pi*fb1*t16);
+note_B1_2=cos(2*pi*fb1*t8);
+note_B1_3=cos(2*pi*fb1*t4);
+note_B1_4=cos(2*pi*fb1*t2);
+note_B1_5=cos(2*pi*fb1*t1);
+
+note_B2_1=cos(2*pi*fb2*t16);
+note_B2_2=cos(2*pi*fb2*t8);
+note_B2_3=cos(2*pi*fb2*t4);
+note_B2_4=cos(2*pi*fb2*t2);
+note_B2_5=cos(2*pi*fb2*t1);
+
+note_C1_1= cos(2*pi*fc1*t16);
+note_C1_2= cos(2*pi*fc1*t8);
+note_C1_3= cos(2*pi*fc1*t4);
+note_C1_4= cos(2*pi*fc1*t2);
+note_C1_5= cos(2*pi*fc1*t1);
+
+note_C2_1=cos(2*pi*fc2*t16);
+note_C2_2=cos(2*pi*fc2*t8);
+note_C2_3=cos(2*pi*fc2*t4);
+note_C2_4=cos(2*pi*fc2*t2);
+note_C2_5=cos(2*pi*fc2*t1);
+
+note_D1_1= cos(2*pi*fd1*t16);
+note_D1_2= cos(2*pi*fd1*t8);
+note_D1_3= cos(2*pi*fd1*t4);
+note_D1_4= cos(2*pi*fd1*t2);
+note_D1_5= cos(2*pi*fd1*t1);
+
+note_D2_1=cos(2*pi*fd2*t16);
+note_D2_2=cos(2*pi*fd2*t8);
+note_D2_3=cos(2*pi*fd2*t4);
+note_D2_4=cos(2*pi*fd2*t2);
+note_D2_5=cos(2*pi*fd2*t1);
+
+note_E1_1= cos(2*pi*fe1*t16);
+note_E1_2= cos(2*pi*fe1*t8);
+note_E1_3= cos(2*pi*fe1*t4);
+note_E1_4= cos(2*pi*fe1*t2);
+note_E1_5= cos(2*pi*fe1*t1);
+
+note_E2_1=cos(2*pi*fe2*t16);
+note_E2_2=cos(2*pi*fe2*t8);
+note_E2_3=cos(2*pi*fe2*t4);
+note_E2_4=cos(2*pi*fe2*t2);
+note_E2_5=cos(2*pi*fe2*t1);
+
+note_E3_1=cos(2*pi*fe3*t16);
+note_E3_2=cos(2*pi*fe3*t8);
+note_E3_3=cos(2*pi*fe3*t4);
+note_E3_4=cos(2*pi*fe3*t2);
+note_E3_5=cos(2*pi*fe3*t1);
+
+note_F1_1= cos(2*pi*ff1*t16);
+note_F1_2= cos(2*pi*ff1*t8);
+note_F1_3= cos(2*pi*ff1*t4);
+note_F1_4= cos(2*pi*ff1*t2);
+note_F1_5= cos(2*pi*ff1*t1);
+note_F2_3= cos(2*pi*ff2*t4);
+note_F3_3= cos(2*pi*ff3*t4);
+note_F3_1= cos(2*pi*ff3*t16);
+
+note_G1_1= cos(2*pi*fg1*t16);
+note_G1_2= cos(2*pi*fg1*t8);
+note_G1_3= cos(2*pi*fg1*t4);
+note_G1_4= cos(2*pi*fg1*t2);
+note_G1_5= cos(2*pi*fg1*t1);
+
+note_G2_1=cos(2*pi*fg2*t16);
+note_G2_2=cos(2*pi*fg2*t8);
+note_G2_3=cos(2*pi*fg2*t4);
+note_G2_4=cos(2*pi*fg2*t2);
+note_G2_5=cos(2*pi*fg2*t1);
+
+note_FG_2= cos(2*pi*fgdiez*t8);
+
+note_FC_1= cos(2*pi*fcdiez*t4);
+
+line1= [ note_A1_2, note_FC_1, note_A1_2, note_D1_3, note_A1_2, note_E1_3, note_A1_2, note_D1_3, note_A1_2, note_FC_1, note_A1_2, note_D1_3, note_A1_2, note_E1_3 ];
+line2= [ note_A1_2, note_FC_1, note_D1_2, note_E1_3, note_A2_2, note_G2_3, note_F1_2, note_E1_4, note_C1_3, note_E1_2, note_B1_3, note_D1_2, note_A1_4 ];
+line3= [ note_G1_2, note_A1_2, note_E1_2, note_F1_2, note_G2_3, note_F1_1, note_E1_2, note_D1_3, note_B2_2,  note_G2_2];
+line4= [ note_E1_2, note_G2_3, note_A2_1, note_E1_2, note_G2_3, note_A2_1, note_E1_2, note_D1_2, note_A1_2, note_G2_2, note_E1_4,  note_FC_1, note_D1_2,  note_E1_3, note_A2_2, note_G2_3, note_F1_2, note_E1_3];
+line5= [ note_C1_3, note_E1_2, note_G2_3, note_E1_2, note_A2_5 ];
+line6= [ note_A2_2, note_C2_2, note_B2_2, note_G2_2, note_E1_2,note_A2_3,note_E2_2, note_B2_3 ];
+line7= [ note_G2_3, note_A2_2, note_B2_3, note_C2_1, note_B2_2, note_A2_2, note_B2_2, note_C2_1, note_D2_4,note_B2_4, note_E2_3,note_E2_3]; 
+%line8= [note_E1_2, note_A2_1, note_B2_1, note_C2_3, note_B2_1,note_A2_1, note_G2_1,note_G2_2, note_E1_2, note_D2_2, note_D2_3, note_C1_1, note_G2_2,note_E1_3] 
+line8= [note_E1_2, note_A2_1, note_B2_1, note_C2_3, note_B2_1,note_A2_1, note_G2_1,note_G2_2, note_E1_2, note_D2_2, note_D2_3, note_C1_1, note_G2_2,note_E1_3]; 
+%line9= [note_A1_3,note_B1_1, note_C1_2, note_D1_2, note_FG_2, note_D1_2,note_F2_3, note_E2_1, note_D1_2, note_E1_2]
+line9= [note_A1_3,note_B1_1, note_C1_2, note_D1_2, note_FG_2, note_D1_2,note_F1_3, note_E1_1, note_D1_2, note_E1_2];
+%line10=[note_E1_1,note_A2_1, note_B2_1, note_C2_3, note_B2_1, note_C2_2, note_D2_2,note_G2_2, note_D2_2, note_F3_3,note_E2_1,note_D2_2, note_C2_2]
+line10=[note_E1_1,note_A2_1, note_B2_1, note_C2_3, note_B2_1, note_C2_2, note_D2_2, note_G2_2, note_D2_2, note_F1_3,note_E2_1,note_D2_2, note_C2_2];  
+line11=[note_A1_1,note_B1_1, note_C1_3, note_D1_1,note_E1_2, note_B1_3, note_B1_2, note_A1_3, note_E1_2, note_B1_2];
+%line12=[ note_E2_1, note_A2_1, note_B2_1, note_C2_3, note_B2_1, note_C2_3, note_B2_1, note_A2_1, note_G2_1, note_G2_2, note_E1_2, note_D1_2, note_D1_3, note_C1_1, note_G2_2, note_E1_3]
+line12=[note_E1_1, note_A2_1, note_B2_1, note_C2_3, note_B2_1, note_A2_1, note_G2_1, note_G2_2, note_E1_2, note_D1_2, note_D1_3, note_C1_1, note_G2_2, note_E1_3];
+%line13=[note_F3_1, note_G2_1, note_C2_5, note_A2_2, note_E2_2, note_B2_3]
+line13=[note_F1_1, note_G2_1, note_C2_5, note_A2_2, note_E2_2, note_B2_3];
+line14=[ note_G2_2, note_D2_3, note_C2_1 , note_B2_3, note_A2_5];                        
+
+%sound(line1,fs); pause(10.80); sound(note_A1_3,fs); pause(0); sound(note_D1_3,fs); pause(2); sound(line2,fs); pause(13); sound(line3, fs); pause(7); sound(line4, fs); pause(14); sound(line5,fs); pause(7.5); sound(line6,fs); pause(6.5); sound(line7,fs); pause(12); sound(line8,fs);pause(15); sound(line9,fs);pause(7);sound(line9,fs); pause(6); sound(line10, fs); pause(13); sound(line11,fs);pause(6);sound(line12,fs);pause(5.5); sound(line9,fs);pause(6);sound(line10, fs); pause(13);sound(line13,fs);pause(5);sound(line14,fs);
+sound(line1,fs); pause(10.80); sound(note_A1_3,fs); pause(0); sound(note_D1_3,fs); pause(2); sound(line2,fs); pause(13); sound(line3, fs); pause(7); sound(line4, fs); pause(14); sound(line5,fs); pause(7.5); sound(line6,fs); pause(6.5); sound(line7,fs); pause(12); sound(line8,fs);pause(8); sound(line9,fs); pause(6); sound(line10, fs); pause(7); sound(line11,fs);pause(6);sound(line12,fs);pause(7.5); sound(line9,fs);pause(6);sound(line10, fs); pause(7);sound(line13,fs);pause(5);sound(line14,fs);
